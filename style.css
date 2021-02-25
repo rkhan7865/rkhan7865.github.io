@@ -1,4 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 2%;
+}
+
+h1 {
+    /*text-decoration: underline;*/
+    font-size: 50px;
+    color: white;
+}
 
 body {
-    background-color: rgb(117, 252, 157);
+    font-family: 'Roboto', sans-serif;
+    /*background-color: rgb(117, 252, 157);*/
+    background: #00d2ff; 
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff); 
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+
+}
+
+.profile {
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    margin-right: 2%;
+}
+
+header {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.mail {
+    float: right;
+}
+
+.mail > p {
+    text-align: center;
 }
