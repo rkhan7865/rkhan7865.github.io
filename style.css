@@ -17,9 +17,14 @@ h1 {
 body {
     font-family: 'Roboto', sans-serif;
     /*background-color: rgb(117, 252, 157);*/
+    /*
     background: #00d2ff; 
     background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff); 
     background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    */
+    background: #24C6DC;
+    background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);
+    background: linear-gradient(to right, #514A9D, #24C6DC); 
 
 }
 
@@ -49,5 +54,7 @@ a:hover {
 }
 
 .mail > p {
+    padding-left: 20%;
+    font-weight: bold;
     text-align: center;
 }
